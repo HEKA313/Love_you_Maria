@@ -11,7 +11,7 @@ for i in range(N):
 	z = 0
 	for j in range(M):
 		z += a[i][j]
-	if i == 1:
+	if i == 0:
 		k = z
 		continue
 	if z < k:
