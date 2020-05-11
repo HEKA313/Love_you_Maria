@@ -2,10 +2,10 @@ N, M = input().split()
 N, M = int(N), int(M)
 a = []
 k = 0
-ind = 1
+ind = 0
 
 for i in range(N):
-	a.append([int(j) for j in input(). split()])
+	a.append([int(j) for j in input().split()])
 
 for i in range(N):
 	z = 0
